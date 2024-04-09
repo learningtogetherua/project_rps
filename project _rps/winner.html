@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./winner.css">
+    <script src="./winner.js" defer></script>
+  </head>
+  <body>
+    <header class="rps-header">
+      <img src="image/logo.png" alt="" class="rps-header-img" />
+      <div class="rps-header-score">
+        <span class="score-title">Score</span>
+        <span class="score-num"></span>
+      </div>
+    </header>
+    <div class="winner">
+      <div class="wrapper">
+        <div class="your-pick">
+          <h3 class="you-win">YOU PICKED</h3>
+          <img class="you-img" src="" alt="" />
+          <img class="yuo-img-bg" src="" alt="">
+        </div>
+        <div class="play-again">
+          <h1 class="play-again-text"></h1>
+          <button class="play-again-btn">PLAY AGAIN</button>
+        </div>
+        <div class="computer-pick">
+          <h3 class="computer-wins">THE HOUSE PICKED</h3>
+          <img class="winner-img comp-img" src="" alt="" />
+          <img class="comp-img-bg" src="" alt="">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

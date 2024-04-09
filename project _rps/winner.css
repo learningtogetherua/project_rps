@@ -1,0 +1,67 @@
+.wrapper {
+    margin-top: -63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.your-pick,
+.computer-pick {
+    min-width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 63px;
+}
+
+
+h3 {
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+.play-again {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.play-again-btn {
+    width: 220px;
+    height: 48px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(0deg, #F3F3F3FF 0%, #FFFFFFFF 100%);
+    font-size: 16px;
+    color: #3B4262;
+    letter-spacing: 2.5px;
+}
+
+.play-again-btn:hover {
+    color: #DB2E4D;
+    letter-spacing: 3px;
+}
+
+.play-again-text {
+    letter-spacing: 3px;
+    font-size: 52px;
+    color: #06fceb;
+    text-align: center;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.yuo-img-bg,
+.comp-img-bg {
+    position: absolute;
+    top: 15%;
+}
